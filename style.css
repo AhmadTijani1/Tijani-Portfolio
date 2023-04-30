@@ -1,0 +1,129 @@
+*{
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    text-decoration: none;
+}
+.btn{
+    padding: 5px 20px;
+    background: linear-gradient(to left, yellow, green);
+    border-radius: 30px;
+    color: blueviolet;
+    font-size: 10px;
+}
+.Main-Content {
+        background-color: rgba(0, 255, 255, 0.664);
+    
+}
+header nav{
+    justify-content: space-between; 
+    width: 80%; 
+    margin: auto; 
+    align-items: center; 
+    padding: top 20px;
+    display:flex;
+    height: 50px;
+   /* z-index: 100;*/
+    position: relative; 
+
+
+} 
+header nav .logo {
+    font-size: 30px;
+    font-weight: bold;
+    background: linear-gradient(to left, yellow, green);
+    -webkit-background-clip: transparent;
+    -webkit-text-fill-color: brown;
+}
+header nav .nav-links a{
+    position: relative;
+    margin-left: 50px;
+    color: brown;
+}
+header nav .nav-links a::after{
+    content '';
+    position: absolute;
+    bottom: 8px;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background: linear-gradient(to left, yellow, green);
+    transition: 0.3s;
+}
+header nav .nav-links a:hover::after{
+    width: 100% ;
+        
+    }
+
+    .sub-content{
+        background-color: aqua;
+    }
+    
+    #About{
+        padding: 10%;
+        border: 10px;
+        border-radius: 5px;
+       /*font-family: Verdana, Geneva, Tahoma, sans-serif;*/
+    
+    }
+   #about .h1{
+    text-align: center;
+    forced-color-adjust: red;
+    }
+    #My-Skillsets{
+        padding: 10%;
+        border: 10px;
+        border-radius: 5px;
+        color: black;
+        background-color: rgba(0, 255, 255, 0.664);
+    }
+   . .ul{
+        border: 15px;
+        display: flex;
+        justify-content: center
+        border-color: white;
+        margin: 0, 30px;
+        padding: 5px;
+        border-radius: 5px;
+    }
+#My-Projects{
+    padding: 10%;
+        border: 10Spx;
+        border-radius: 5px;
+        color: black;
+        background-color: rgba(0, 255, 255, 0.664);
+        margin: 10px;
+}
+#My-Projects.h1{
+    align-items: center;
+}
+#contact-area{
+    padding: 10%;
+        border: 10px;
+        border-radius: 5px;
+        color: black;
+        s
+        position: relative;
+}
+.sub-content{
+    display: flex;
+}
+#My-Portrait img{
+   width: 350px;
+   height: 350px;
+}
+#About . h1{
+    font-stretch: expanded;
+    font-weight: bolder;
+}
+
+.smh{
+    display: flex;
+
+    
+}
+.copy-right{
+    color: blueviolet;
+    align-content: center;
+} 
